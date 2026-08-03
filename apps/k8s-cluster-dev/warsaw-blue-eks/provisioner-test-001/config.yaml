@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: instance-aws-config
 data:
-  hostname: "provisioner-test.oczadly.io"
+  hostname: "provisioner-test-001.oczadly.io"
   awsRegion: "eu-central-1"
   awsAccountId: "123456789012"
   ServiceAccountRoleArn: "arn:aws:iam::123456789012:role/provisioner-test-irsa"
