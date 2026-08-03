@@ -13,7 +13,7 @@ spec:
     name: flux-system
   commonMetadata:
     labels:
-      infra.oczadly.io/instance-tier: "dev"
+      infra.oczadly.io/instance-tier: "prod"
   postBuild:
     substitute:
       releaseChannel: "stable"
