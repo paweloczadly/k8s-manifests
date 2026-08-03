@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: instance-aws-config
+data:
+  hostname: "provisioner-test.oczadly.io"
+  awsRegion: "eu-central-1"
+  awsAccountId: "123456789012"
+  ServiceAccountRoleArn: "arn:aws:iam::123456789012:role/provisioner-test-irsa"
+  objectStorageBucket: "provisioner-test-builds"
+  usermanagedDbHostname: "provisioner-test.cluster-xxx.eu-central-1.rds.amazonaws.com"
+  workloadName: "provisioner-test"
+  mcpServerRoleArn: "arn:aws:iam::123456789012:role/provisioner-test-mcp"
