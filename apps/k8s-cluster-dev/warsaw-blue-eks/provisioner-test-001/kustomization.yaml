@@ -1,8 +1,0 @@
-namespace: provisioner-test-001
-resources:
-  - ../../../.secrets/cloudflare-origin-ssl-secret.yaml
-  - resources/namespace.yaml
-  - config.yaml
-  - helmrelease.yaml
-generatorOptions:
-  disableNameSuffixHash: true
